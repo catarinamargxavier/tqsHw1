@@ -13,11 +13,16 @@
         <select id="mySelect">
         </select>
         <button type="button" onclick="search()">Search</button>
-    
+        <div id="div0"></div>
+        <div id="div1"></div>
+        <div id="div2"></div>
+        <div id="div3"></div>
+        <div id="div4"></div>
+        
         <script>
             var locations = new Object();
             (function() {
-                fetch('http://localhost:8080/allLocations')
+                fetch('http://localhost:8080/api/allLocations')
                 .then(res => res.json())
                 .then(json => listLocal(json));
             })();
@@ -26,15 +31,35 @@
                 for (var local in json) {
                     var option = document.createElement("option");
                     locations[json[local]["local"]] = json[local]["globalIdLocal"];
-                    //console.log(json[local]["globalIdLocal"]);
                     option.text = json[local]["local"];
                     x.add(option);
                 }
-                //console.log(locations);
             }
             function search() {
                 var x = document.getElementById("mySelect");
-                console.log(mySelect.options[mySelect.selectedIndex].text);
+                var localId = locations[mySelect.options[mySelect.selectedIndex].text];
+                fetch('http://localhost:8080/api/previsions/'+localId)
+                .then(res => res.json())
+                .then(json => listPrevisions(json));
+            }
+            function listPrevisions(json) {
+                for (i=0; i<=4; i++) {
+                    var div = document.getElementById("div" + i);
+                    div.innerHTML = "";
+                    var p3 = document.createElement("p");
+                    var text3 = document.createTextNode("Day: " + json[i]["forecastDate"]);
+                    p3.appendChild(text3);
+                    div.append(p3);
+                    var p = document.createElement("p");
+                    var text = document.createTextNode("Temp Min: " + json[i]["tMin"]);
+                    p.appendChild(text);
+                    div.append(p);
+                    var p2 = document.createElement("p");
+                    var text2 = document.createTextNode("Temp Max: " + json[i]["tMax"]);
+                    p2.appendChild(text2);
+                    div.append(p2);
+                    
+                }
             }
         </script>
     

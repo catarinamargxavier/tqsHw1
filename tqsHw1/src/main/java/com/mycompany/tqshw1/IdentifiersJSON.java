@@ -7,9 +7,6 @@ package com.mycompany.tqshw1;
 public class IdentifiersJSON {
     
     private Identifier[] data;
-    
-    public IdentifiersJSON () {
-    }
 
     public Identifier[] getData() {
         return data;

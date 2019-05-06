@@ -1,48 +1,0 @@
-
-Ucom.mycompany.tqshw1.WeatherService#getPrevisions(I)[Lcom/mycompany/tqshw1/Prevision;
-‚/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherService.java ($"3*€
-2
-‚/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherService.java (í
-ê
-
-‚/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherService.java (
-%1com.mycompany.tqshw1.Task"__id*1*/%
-#com.mycompany.tqshw1.WeatherService"
-taskõò
-
-‚/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherService.java (
-
-%2void"!com.mycompany.tqshw1.Task#run(I)V*!
-
-%1com.mycompany.tqshw1.Task*
-""2run(I)*
-1*•
-3
-‚/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherService.java (÷
-ô
-
-‚/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherService.java ((
-%0boolean"+com.mycompany.tqshw1.Cache#hasValidData(I)Z*"
-com.mycompany.tqshw1.Cache*
-""*
-2
-1*ş
-1
-‚/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherService.java (§
-¤
-
-‚/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherService.java (("
-%3com.mycompany.tqshw1.Weather"Fcom.mycompany.tqshw1.Cache#getWeather(I)Lcom/mycompany/tqshw1/Weather;*"
-com.mycompany.tqshw1.Cache*
-""›˜
-
-‚/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherService.java (2
-%4$Array"Gcom.mycompany.tqshw1.Weather#getData()[Lcom/mycompany/tqshw1/Prevision;*$
-"
-%3com.mycompany.tqshw1.Weather2	getData()" 
-
-‚/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherService.java (3
-
-%4$Array:
-""B'%
-#com.mycompany.tqshw1.WeatherService

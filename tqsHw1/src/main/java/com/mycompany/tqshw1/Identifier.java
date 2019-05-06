@@ -8,9 +8,6 @@ public class Identifier {
     
     private int globalIdLocal;
     private String local;
-    
-    public Identifier () {
-    }
 
     public int getGlobalIdLocal() {
         return globalIdLocal;

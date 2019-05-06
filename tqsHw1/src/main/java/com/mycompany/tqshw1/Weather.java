@@ -8,9 +8,6 @@ public class Weather {
     
     private Prevision[] data;
     private long timestampRegister;
-    
-    public Weather () {
-    }
 
     public Prevision[] getData() {
         return data;

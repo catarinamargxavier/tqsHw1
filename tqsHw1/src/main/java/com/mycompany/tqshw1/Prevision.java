@@ -10,9 +10,6 @@ public class Prevision {
     private String tMax;
     private String forecastDate;
     private int idWeatherType;
-    
-    public Prevision () {
-    }
 
     public String gettMin() {
         return tMin;

@@ -15,6 +15,10 @@ public class Cache {
     private static List<Identifier> identifiers = new ArrayList <>();
     private static Map<Integer, Weather> previsions = new HashMap<>();
     
+    private Cache() {
+        throw new IllegalStateException("Cache class");
+    }
+    
     public static void addIdentifier (Identifier identifier) {
         identifiers.add(identifier);
     }
@@ -29,9 +33,7 @@ public class Cache {
     
     public static boolean hasValidData (int localId) {
         long currentTime = new Timestamp(System.currentTimeMillis()).getTime();
-        if (previsions.containsKey(localId) && currentTime - previsions.get(localId).getTimestampRegister() < 900000) 
-            return true;
-        return false;
+        return (previsions.containsKey(localId) && currentTime - previsions.get(localId).getTimestampRegister() < 900000);
     }
     
     public static Weather getWeather (int localId) {

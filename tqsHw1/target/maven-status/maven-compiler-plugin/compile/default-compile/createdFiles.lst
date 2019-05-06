@@ -1,7 +1,7 @@
-com/mycompany/tqshw1/Application.class
 com/mycompany/tqshw1/MyRunner.class
+com/mycompany/tqshw1/Identifier.class
+com/mycompany/tqshw1/Application.class
 com/mycompany/tqshw1/Cache.class
 com/mycompany/tqshw1/IdentifierService.class
-com/mycompany/tqshw1/Identifier.class
 com/mycompany/tqshw1/InitTask.class
 com/mycompany/tqshw1/IdentifiersJSON.class

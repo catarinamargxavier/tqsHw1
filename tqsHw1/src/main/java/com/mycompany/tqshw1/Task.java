@@ -12,15 +12,15 @@ import org.springframework.web.client.RestTemplate;
 @Component
 public class Task {
     
-    private final String partialUrl = "http://api.ipma.pt/open-data/forecast/meteorology/cities/daily/";
+    private static final String PARTIALURL = "http://api.ipma.pt/open-data/forecast/meteorology/cities/daily/";
     
     @Autowired
     private WeatherService weatherService;
     
     public void run (int localId) {
         RestTemplate restTemplate = new RestTemplate();
-        Weather weather = restTemplate.getForObject(partialUrl+localId+".json", Weather.class);
-        weather.setTimestampRegister((new Timestamp(System.currentTimeMillis()).getTime()));
+        Weather weather = restTemplate.getForObject(PARTIALURL+localId+".json", Weather.class);
+        weather.setTimestampRegister(new Timestamp(System.currentTimeMillis()).getTime());
         weatherService.save(localId, weather);
     }
     
