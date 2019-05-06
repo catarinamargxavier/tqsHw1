@@ -1,15 +1,19 @@
 package com.mycompany.tqshw1;
 
+import java.sql.Timestamp;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  *
  * @author catarina
  */
-public abstract class Cache {
+public class Cache {
     
-    private static List<Identifier> identifiers = new ArrayList <Identifier>();
+    private static List<Identifier> identifiers = new ArrayList <>();
+    private static Map<Integer, Weather> previsions = new HashMap<>();
     
     public static void addIdentifier (Identifier identifier) {
         identifiers.add(identifier);
@@ -19,13 +23,19 @@ public abstract class Cache {
         return identifiers;
     }
     
-    public static int getIdLocal (String local) {
-        for (Identifier identifier : identifiers) {
-            if (identifier.getLocal().equals(local)) {
-                return identifier.getGlobalIdLocal();
-            }
-        }
-        return -1;
+    public static void saveWeather (int globalId, Weather weather) {
+        previsions.put(globalId, weather);
+    }
+    
+    public static boolean hasValidData (int localId) {
+        long currentTime = new Timestamp(System.currentTimeMillis()).getTime();
+        if (previsions.containsKey(localId) && currentTime - previsions.get(localId).getTimestampRegister() < 900000) 
+            return true;
+        return false;
+    }
+    
+    public static Weather getWeather (int localId) {
+        return previsions.get(localId);
     }
     
 }

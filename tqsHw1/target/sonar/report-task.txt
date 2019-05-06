@@ -3,5 +3,5 @@ projectKey=catarinamargxavier_tqsHw1
 serverUrl=https://sonarcloud.io
 serverVersion=7.8.0.24466
 dashboardUrl=https://sonarcloud.io/dashboard?id=catarinamargxavier_tqsHw1
-ceTaskId=AWqIiJINawtay-r9TO2G
-ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWqIiJINawtay-r9TO2G
+ceTaskId=AWqKnQQsKAidQLthTDQu
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWqKnQQsKAidQLthTDQu

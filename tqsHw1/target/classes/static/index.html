@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Weather App</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        
+        <p>Choose a location</p>
+        <select id="mySelect">
+        </select>
+        <button type="button" onclick="search()">Search</button>
+    
+        <script>
+            var locations = new Object();
+            (function() {
+                fetch('http://localhost:8080/allLocations')
+                .then(res => res.json())
+                .then(json => listLocal(json));
+            })();
+            function listLocal(json) {
+                var x = document.getElementById("mySelect");
+                for (var local in json) {
+                    var option = document.createElement("option");
+                    locations[json[local]["local"]] = json[local]["globalIdLocal"];
+                    //console.log(json[local]["globalIdLocal"]);
+                    option.text = json[local]["local"];
+                    x.add(option);
+                }
+                //console.log(locations);
+            }
+            function search() {
+                var x = document.getElementById("mySelect");
+                console.log(mySelect.options[mySelect.selectedIndex].text);
+            }
+        </script>
+    
+    </body>
+    
+</html>

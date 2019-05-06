@@ -14,22 +14,14 @@ import org.springframework.stereotype.Service;
 @Service
 public class IdentifierService {
     
-    private static final Logger log = LoggerFactory.getLogger(IdentifierService.class);
+    //private static final Logger log = LoggerFactory.getLogger(IdentifierService.class);
     
     public void save (Identifier identifier) {
         Cache.addIdentifier(identifier);
     }
     
-    public List<String> getAllLocal() {
-        List <String> all = new ArrayList<> ();
-        for (Identifier identifier : Cache.getIdentifiers()) {
-            all.add(identifier.getLocal());
-        }
-        return all;
-    }
-    
-    public int getGlobalId (String local) {
-        return 0;
+    public List<Identifier> getAllLocal() {
+        return Cache.getIdentifiers();
     }
     
 }
