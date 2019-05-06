@@ -1,73 +1,0 @@
-
-+com.mycompany.tqshw1.Cache#hasValidData(I)Zƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java" "(&"3*’
-2ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java$3 $(>Ô
-Ñ
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java$A $(K
-%6java.util.Map"__id*.*,
-com.mycompany.tqshw1.Cache"
-
-previsionsž›
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java$A $(X"
-%7com.mycompany.tqshw1.Weather"7java.util.Map#get(Ljava/lang/Object;)Ljava/lang/Object;*
-
-%6java.util.Map*
-""2get(Ljava/lang/Object;)‰†
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java$A $(o
-
-%8long"4com.mycompany.tqshw1.Weather#getTimestampRegister()J*$
-"
-%7com.mycompany.tqshw1.Weather2getTimestampRegister()*
-1*»
-3ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java#) #(/Ò
-Ï
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java#) #(C
-
-%0long"%java.lang.System#currentTimeMillis()J*"
-java.lang.System·´
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java# #((
-%1java.sql.Timestamp"java.sql.TimestampØ
-Õ
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java# #(D
-%2"java.sql.Timestamp#<init>(J)V*
-
-%1java.sql.Timestamp*
-
-
-%0longÛØ
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java# #(N
-
-%3long"java.sql.Timestamp#getTime()J*
-
-%1java.sql.Timestamp2	getTime()Ô
-Ñ
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java$ $(
-%4java.util.Map"__id*.*,
-com.mycompany.tqshw1.Cache"
-
-previsionsˆ…
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java$ $(/
-%5boolean".java.util.Map#containsKey(Ljava/lang/Object;)Z*
-
-%4java.util.Map*
-""2containsKey(Ljava/lang/Object;)*
-2
-1*š
-1ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java$ $(z"Ž
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java$ $(z
-"":
-""B"
-com.mycompany.tqshw1.Cache

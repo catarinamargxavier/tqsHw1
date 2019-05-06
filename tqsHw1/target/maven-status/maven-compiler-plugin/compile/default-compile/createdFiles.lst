@@ -1,7 +1,13 @@
 com/mycompany/tqshw1/MyRunner.class
 com/mycompany/tqshw1/Identifier.class
+com/mycompany/tqshw1/Prevision.class
+com/mycompany/tqshw1/Task.class
+com/mycompany/tqshw1/IdentifierController.class
 com/mycompany/tqshw1/Application.class
+com/mycompany/tqshw1/WeatherController.class
 com/mycompany/tqshw1/Cache.class
 com/mycompany/tqshw1/IdentifierService.class
+com/mycompany/tqshw1/Weather.class
 com/mycompany/tqshw1/InitTask.class
+com/mycompany/tqshw1/WeatherService.class
 com/mycompany/tqshw1/IdentifiersJSON.class

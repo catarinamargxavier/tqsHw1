@@ -1,23 +1,0 @@
-
-\com.mycompany.tqshw1.WeatherController#getWeatherByLocal(I)[Lcom/mycompany/tqshw1/Prevision;
-…/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherController.java (("1*‹
-1
-…/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherController.java (‡
-„
-
-…/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherController.java ()
-%0#com.mycompany.tqshw1.WeatherService"__id*>*<(
-&com.mycompany.tqshw1.WeatherController"
-weatherServiceÂ¿
-
-…/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherController.java (4
-%1$Array"Ucom.mycompany.tqshw1.WeatherService#getPrevisions(I)[Lcom/mycompany/tqshw1/Prevision;*+
-)
-%0#com.mycompany.tqshw1.WeatherService*
-""2getPrevisions(I)"£
-
-…/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/WeatherController.java (5
-
-%1$Array:
-""B*(
-&com.mycompany.tqshw1.WeatherController

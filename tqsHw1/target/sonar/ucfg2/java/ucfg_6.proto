@@ -1,24 +1,0 @@
-
-Fcom.mycompany.tqshw1.Cache#getWeather(I)Lcom/mycompany/tqshw1/Weather;ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java' '($"1*°
-1ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java( ((Ô
-Ñ
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java( ((
-%0java.util.Map"__id*.*,
-com.mycompany.tqshw1.Cache"
-
-previsionsž›
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java( ((&"
-%1com.mycompany.tqshw1.Weather"7java.util.Map#get(Ljava/lang/Object;)Ljava/lang/Object;*
-
-%0java.util.Map*
-""2get(Ljava/lang/Object;)"¬
-ƒ
-y/home/catarina/Desktop/3Âº ano/2Âº semestre/TQS/RepositÃ³rios/tqsHw1/tqsHw1/src/main/java/com/mycompany/tqshw1/Cache.java( (('$
-"
-%1com.mycompany.tqshw1.Weather:
-""B"
-com.mycompany.tqshw1.Cache
